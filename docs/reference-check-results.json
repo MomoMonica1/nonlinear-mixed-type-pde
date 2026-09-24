@@ -1,0 +1,56 @@
+{
+  "implementation": "Independent Python/SciPy cross-check; MATLAB not executed",
+  "quadratic": {
+    "max_error": 6.34492458573277e-14,
+    "iterations": 9,
+    "matrix_residual": 3.5793590313915047e-13,
+    "stencil_residual": 3.5504932327512506e-13
+  },
+  "refinement": [
+    {
+      "nodes_per_axis": 9,
+      "max_error": 0.003180186882637659,
+      "iterations": 9,
+      "stencil_residual": 3.782307800292983e-12
+    },
+    {
+      "nodes_per_axis": 17,
+      "max_error": 0.0007904444889981765,
+      "iterations": 9,
+      "stencil_residual": 3.5633718198369024e-12
+    },
+    {
+      "nodes_per_axis": 33,
+      "max_error": 0.00019732509935455056,
+      "iterations": 9,
+      "stencil_residual": 3.5358382888261985e-12
+    }
+  ],
+  "orders": [
+    2.008375493225429,
+    2.002089673530861
+  ],
+  "demo": [
+    {
+      "epsilon": 0.2,
+      "iterations": 25,
+      "matrix_residual": 8.350431457415652e-12,
+      "stencil_residual": 8.349099189786102e-12,
+      "y_spread": 7.327471962526033e-15
+    },
+    {
+      "epsilon": 0.1,
+      "iterations": 24,
+      "matrix_residual": 1.9946266860415562e-11,
+      "stencil_residual": 1.9952040020143613e-11,
+      "y_spread": 2.1838696704127342e-14
+    },
+    {
+      "epsilon": 0.05,
+      "iterations": 26,
+      "matrix_residual": 4.019273802668977e-11,
+      "stencil_residual": 4.019273802668977e-11,
+      "y_spread": 6.661338147750939e-15
+    }
+  ]
+}
